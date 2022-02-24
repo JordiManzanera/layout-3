@@ -1,0 +1,36 @@
+/* Declaring custom properties */
+* {
+  box-sizing: border-box;
+  border: thin solid red;
+}
+
+#header {
+  text-align: right;
+  padding: 0.5em;
+  background-color: #252523;
+  color: white
+}
+#header-users > ul {
+  background-color: #39b449;
+  list-style-type: none;
+  display: inline-block;
+
+}
+#header-users > ul > li {
+  background-color: #39b449;
+  list-style-type: none;
+  display: inline-block;
+
+}
+
+#menu > ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+#menu > ul > li {
+  display: inline-block;
+  padding: 0.5em;
+  border-left: thin solid lightgray;
+}
