@@ -10,20 +10,25 @@
   background-color: #252523;
   color: white
 }
-#header-users > ul {
-  background-color: #39b449;
+#header-style > ul {
+  margin: 0;
+  background-color: #252523;
   list-style-type: none;
   display: inline-block;
+  position: relative;
+
 
 }
-#header-users > ul > li {
-  background-color: #39b449;
+#header-style > ul > li {
+  margin: 0;
+  background-color: #3db64c;
   list-style-type: none;
   display: inline-block;
 
 }
 
 #menu > ul {
+  text-align: right;
   margin: 0;
   padding: 0;
   list-style-type: none;
@@ -33,4 +38,30 @@
   display: inline-block;
   padding: 0.5em;
   border-left: thin solid lightgray;
+}
+
+.logo {
+  float: left;
+  font-size: 24px;
+}
+
+.e {
+  float: left;
+  color: #3ab54a;
+}
+
+#banner-text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 50px;
+}
+
+#banner-text2{
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 40px;
 }
