@@ -1,7 +1,6 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
-  border: thin solid red;
 }
 
 #header {
@@ -10,9 +9,20 @@
   background-color: #252523;
   color: white
 }
+
+.phone{
+
+/* background-color: #252523; */
+/* background-color: #3db64c; */
+}
+
+.login {
+  background-color: #3db64c;
+}
+
 #header-style > ul {
   margin: 0;
-  background-color: #252523;
+
   list-style-type: none;
   display: inline-block;
   position: relative;
@@ -20,8 +30,8 @@
 
 }
 #header-style > ul > li {
+  float: right;
   margin: 0;
-  background-color: #3db64c;
   list-style-type: none;
   display: inline-block;
 
@@ -60,6 +70,7 @@
 }
 
 #banner-text{
+  text-align: center;
   color: #3ab54a;
   font: 150% sans-serif;
   font-size: 50px;
@@ -71,14 +82,15 @@
 }
 
 #search-bar{
-  background-color: #3ab54a;
   border-radius: 4px;
   color: white;
-  padding: 15px 32px;
   text-align: center;
   text-decoration: none;
-  display: inline-block;
-  font-size: 12px;
+    font-size: 12px;
+}
+
+#button-search {
+  background-color: green;
 }
 
 #content{
@@ -105,4 +117,46 @@ transform: translate(-50%, -50%);
   text-align: center;
   font-size: 50px;
 
+}
+
+#courses{
+  background-color: #eff0f4;
+}
+
+.text-1{
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 1em;
+}
+
+.text-2{
+display: inline-block;
+font-size: 30px;
+color: #00c138;
+font-weight: bold;
+}
+
+.all{
+  background-color: #00c852;
+  color: white;
+  float: left;
+  padding: 1em;
+}
+
+.menu-2 > ul > li {
+  display: inline-block;
+  padding: 1em;
+  border-left: thin solid lightgray;
+}
+
+.all-courses{
+border: thin solid #00c852;
+color: #00c852;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+float: right;
 }
