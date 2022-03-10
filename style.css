@@ -2,7 +2,6 @@
 * {
   box-sizing: border-box;
 
-  border: thin solid red;
 }
 
 #header {
@@ -163,6 +162,10 @@ font-size: 16px;
 float: right;
 }
 
+#fotos{
+  background-color: #eff0f4;
+}
+
 
 .courses-carts{
   display: grid;
@@ -197,4 +200,33 @@ float: right;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  font-size: 20px;
+  color: white;
+}
+
+.text3-1{
+  color: #00c852;
+}
+
+#apply-buttom{
+  background-color: #00c852;
+}
+
+#videos{
+  text-align: center;
+}
+
+#title-2{
+  display: inline-block;
+  font-weight: bold;
+}
+
+@media (max-width: 1024px) {
+
+  .carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+
 }
