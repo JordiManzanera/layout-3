@@ -1,6 +1,8 @@
 /* Declaring custom properties */
 * {
   box-sizing: border-box;
+
+  border: thin solid red;
 }
 
 #header {
@@ -86,7 +88,7 @@
   color: white;
   text-align: center;
   text-decoration: none;
-    font-size: 12px;
+  font-size: 12px;
 }
 
 #button-search {
@@ -159,4 +161,40 @@ text-decoration: none;
 display: inline-block;
 font-size: 16px;
 float: right;
+}
+
+
+.courses-carts{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 1em 8em;
+}
+
+.carts{
+  margin: 1em;
+  background-color: white;
+  padding: 1em;
+}
+
+.carts img {
+  width: 100%;
+  max-width: 100%;
+}
+
+#banner-2{
+  text-align: center;
+  position: relative;
+}
+
+#banner-2 img{
+  width: 100%;
+  max-width: 100%;
+  filter: brightness(50%);
+}
+
+#banner-text-2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
