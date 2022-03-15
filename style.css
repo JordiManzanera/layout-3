@@ -209,16 +209,71 @@ float: right;
 }
 
 #apply-buttom{
-  background-color: #00c852;
+ background-color: #00c852;
+ border: none;
+ color: white;
+ padding: 15px 32px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+ font-size: 16px;
 }
 
 #videos{
   text-align: center;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+
+}
+
+#title > h5{
+  text-align: center;
+  display: inline-block;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+
 }
 
 #title-2{
   display: inline-block;
+  font-size: 30px;
+  color: #00c138;
   font-weight: bold;
+}
+
+#videos-grans{
+position: relative;
+padding: 1em;
+display: inline-block;
+}
+
+.play{
+  font-size: 72px;
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: black;
+}
+
+.videos-petits{
+position: relative;
+display: grid;
+grid-template-columns: 1fr 1fr;
+padding: 1em;
+
+}
+
+#videos-grans > img{
+  width: 100%;
+  max-width: 100%;
+}
+
+
+.videos-petits > img{
+  width: 100%;
+  max-width: 100%;
 }
 
 #footer {
@@ -257,12 +312,16 @@ color: #32373a;
 
 @media (max-width: 1024px) {
 
-  #footer {
-   grid-template-columns: 1fr;
- }
+  .carts{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 
- .footer-content {
-   grid-template-columns: 1fr;
- }
+  .footer-content {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
 
 }
